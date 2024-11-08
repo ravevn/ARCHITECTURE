@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>ARCH</title>
+
+   <!-- библиотека -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.6.1/css/bootstrap.min.css">
+
+
+
+   <!--БИБЛИОТЕКА AOS-->
+   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+   <!-- ссылка на css -->
+   <link rel="stylesheet" href="/css/style.css">
+
+</head>
+
+<body>
+
+   {{> header}}
+
+   <!-- main начало  -->
+   <section class="main" id="main">
+
+      <div class="container">
+         <div class="row align-items-center text-center text-md-left min-vh-100">
+            <div class="col-md-6">
+               <h3>Building </h3>
+               <h3>Rock Solid</h3>
+               <h3>Relationships</h3>
+               <span>Commercial General Contractor serving the Bay Area & Texas since 2000</span>
+            </div>
+         </div>
+         <video autoplay loop muted class="video" id="video">
+            <source src="./images/видео фон.mp4" type="video/mp4">
+            </source>
+         </video>
+
+      </div>
+
+   </section>
+
+   <!-- конец main -->
+
+
+   <!-- about section all -->
+   <section class="all">
+
+
+      <!-- reviews section конец -->
+   </section>
+   <!-- all section конец -->
+
+   {{> footer}}
+
+   <!--БИБЛИОТЕКА AOS-->
+   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+   <script>
+      AOS.init();
+   </script>
+
+   <!-- custom js file link  -->
+   <script src="/src/script.js"></script>
+
+</body>
+
+</html>

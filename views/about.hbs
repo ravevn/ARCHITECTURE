@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>ARCH</title>
+
+   <!-- библиотека -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.6.1/css/bootstrap.min.css">
+
+  
+
+   <!--БИБЛИОТЕКА AOS-->
+   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+   <!-- ссылка на css -->
+   <link rel="stylesheet" href="/css/style.css">
+
+</head>
+<body>
+
+   {{> header}}
+
+<!-- начало team -->
+ <section class="team" id="team" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+
+    <h1 class="heading"> our team </h1>
+    <h2 class="text">We would rather build one hundred projects for one customer than one project for one hundred
+       customers.</h2>
+
+    <div class="container box-container">
+
+       <div class="box">
+          <img src="./images/начальник.jpg" alt="">
+          <h3>member of team</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, eos.</p>
+       </div>
+
+       <div class="box">
+          <img src="./images/работник1.jpg" alt="">
+          <h3>member of team</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, eos.</p>
+       </div>
+
+
+       <div class="box">
+          <img src="./images/работник2.jpeg" alt="">
+          <h3>member of team</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, eos.</p>
+       </div>
+
+       <div class="box">
+          <img src="./images/работник3.jpg" alt="">
+          <h3>member of team</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, eos.</p>
+
+       </div>
+       <div class="box">
+          <img src="./images/работник5.jpg" alt="">
+          <h3>member of team</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, eos.</p>
+
+       </div>
+       <div class="box">
+          <img src="./images/работник6.jpg" alt="">
+          <h3>member of team</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, eos.</p>
+
+       </div>
+
+
+    </div>
+
+ </section>
+
+
+       <!-- reviews section начало  -->
+      <section class="reviews" id="reviews" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+
+         <h1 class="heading">reviews</h1>
+
+         <div class="box-container container animation1 animate-gradient">
+
+
+            <div class="box">
+               <h2>DarkKnightess</h2>
+               <p>ARCH создают произведения искусства, которые объединяют элегантность и уникальный дизайн.</p>
+               <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+               </div>
+            </div>
+
+            <div class="box">
+
+               <h3>Thunderbolt87</h3>
+               <p>Индивидуальный подход к каждому проекту и к деталям подлинно превосходит ожидания!</p>
+               <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+               </div>
+            </div>
+
+            <div class="box">
+
+               <h3>SilverPhoenix</h3>
+               <p>ARCH всегда уверены на 100% в своих решениях, потому что они знают своё дело.</p>
+               <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+               </div>
+            </div>
+            <div class="box">
+
+               <h3>ShadowWalker</h3>
+               <p>Качество и стиль, интегрированные в каждый проект компании ARCH, всегда впечатляют!</p>
+               <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+               </div>
+            </div>
+            <div class="box">
+
+               <h3>MysticMuse</h3>
+               <p>Заставьте эстетические амбиции вашего проекта стать реальностью с ARCH.</p>
+               <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+               </div>
+            </div>
+            <div class="box">
+               <h3>RedDragon</h3>
+               <p>Каждый раз, когда работаю с ARCH, я не могу не нахвастаться их профессионализмом и творчеством.</p>
+               <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+               </div>
+            </div>
+
+         </div>
+
+      </section>
+
+ {{>footer }}
+<!--БИБЛИОТЕКА AOS-->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+   AOS.init();
+</script>
+
+<!-- custom js file link  -->
+<script src="/src/script.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>ARCH</title>
+
+   <!-- библиотека -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.6.1/css/bootstrap.min.css">
+
+
+   <!--БИБЛИОТЕКА AOS-->
+   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+   <!-- ссылка на css -->
+   <link rel="stylesheet" href="/css/style.css">
+
+</head>
+
+<body>
+
+   {{> header}}
+
+   <!-- about section начало -->
+   <section class="about" id="about">
+
+      <h1 class="heading"> About us</h1>
+
+      <div class="container">
+         <div class="contact-info-container">
+
+            <div class="box">
+               <i class="fas fa-phone"></i>
+               <h1>Phone</h1>
+               <h3>1234567890</h3>
+            </div>
+
+            <div class="box">
+               <i class="fas fa-envelope"></i>
+               <h1>E-mail</h1>
+               <h3>nether@gmail.com</h3>
+            </div>
+
+            <div class="box">
+               <i class="fas fa-map"></i>
+               <h1>Address</h1>
+               <h3>Netherlands</h3>
+            </div>
+         </div>
+
+         <div class="row align-items-center" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+            <div class="col-md-6 mb-5 mb-md-0 ">
+               <h1>Our Location</h1>
+               <iframe class="map"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d311921.53840735566!2d4.6237902585126935!3d52.35433437274985!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c63fb5949a7755%3A0x6600fd4cb7c0af8d!2z0JDQvNGB0YLQtdGA0LTQsNC8LCDQndC40LTQtdGA0LvQsNC90LTRiw!5e0!3m2!1sru!2sru!4v1672162401697!5m2!1sru!2sru"
+                  width="1100" height="600" style="border:0;" allowfullscreen="" loading="lazy">
+               </iframe>
+            </div>
+         </div>
+      </div>
+
+   </section>
+
+   {{> footer}}
+
+   <!--БИБЛИОТЕКА AOS-->
+   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+   <script>
+      AOS.init();
+   </script>
+
+   <!-- custom js file link  -->
+   <script src="/src/script.js"></script>
+
+</body>
+
+</html>
